@@ -5,24 +5,60 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- This is my 1st attempt at the nav bar
 <div class="header">
+	<div class="header-left" >
+		<a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a>
+		<a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+	</div>
+	<div class="header-right">
+		<a>Gmail</a>
+		<a>Images</a>
+	</div>
 </div>
+-->
+
+<!-- for new nav bar (below), I used: https://www.w3schools.com/css/css_navbar.asp -->
+<div class="nav-bar"> 
+	<ul>
+  		<li><a href="default.asp">About</a></li>
+  		<li><a href="news.asp">Store</a></li>
+  		<div class="right">
+  			<li><a href="contact.asp">Gmail</a></li>
+  			<li><a href="about.asp">Images</a></li>
+  		</div>
+	</ul>
+</div>
+
+
 <div class="content" style="margin-top: 89px">
 	<center>
 		<div id="logo">
-			<img src="http://www.thelogofactory.com/wp-content/uploads/2015/09/fixed-google-logo-font.png" alt="Google Logo" width="280" style="padding-top: 109px">
+			<img src="http://www.thelogofactory.com/wp-content/uploads/2015/09/fixed-google-logo-font.png" alt="Google Logo" width="280" style="padding-top: 80px">
 		</div>
 		<form action="someURL-or-page" method="POST" name="search-google">
 			<div class="search-bar">
-				<input type="text" name="search-for"><br>
+				<input type="text" name="search-for" style="">
 			</div>
 			<br>
 			<input type="submit" value="Google Search">
 			<input type="submit" value="I'm Feeling Lucky">
 			<br>
 			<br>
-			<a href="https://artsandculture.google.com/theme/kwKSLHCd3edAIg">See art through a whole new lens</a>
 	</center>
 </div>
+
+<div class="nav-bar-bot"> 
+	<ul>
+  		<li><a href="default.asp">Advertising</a></li>
+  		<li><a href="news.asp">Business</a></li>
+  		<div class="right">
+  			<li><a href="contact.asp">Settings</a></li>
+  			<li><a href="about.asp">Terms</a></li>
+  			<li><a href="about.asp">Privacy</a></li>
+  		</div>
+	</ul>
+</div>
+
 </body>
 </html>
